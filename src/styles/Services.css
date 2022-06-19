@@ -1,0 +1,22 @@
+.serviceName {
+  display: flex;
+  color: gray;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+  /* overflow-x: scroll; */
+}
+.serviceName > h6 {
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 0;
+  
+}
+.serviceName > h6:hover {
+  color: black;
+}
+hr {
+  margin: 0px;
+  color: lightgray;
+}

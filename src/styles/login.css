@@ -1,0 +1,58 @@
+.login{
+    display: grid;
+    place-items:center;
+    height: 61vh;
+    width: 100%;
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+     
+}
+
+    .login>button{
+      width: 300px;
+      background-color: #C65D7B ;
+      color: #eff2f5;
+      font-weight: 800;
+      margin-bottom: 50px
+    }
+    .login>button:hover{
+      color: #C65D7B ;
+      background-color: white;
+    }
+/* span{color:#C65D7B}      */
+.loginLogo{
+  text-align: center;
+
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+/* SITE TEXT animation :      https://alvarotrigo.com/blog/css-text-animations/ */

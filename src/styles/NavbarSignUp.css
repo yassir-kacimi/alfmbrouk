@@ -1,0 +1,87 @@
+.NavbarSignUp {
+  position: absolute;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  /* background-color: #231F20; */
+  height: 60px !important;
+}
+
+.Logo > h2 {
+  margin-bottom: 0px;
+  margin-left: 0;
+  font-family: "Elephant", cursive;
+  font-size: 33px;
+}
+.Explore {
+  width: 35% !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-around !important;
+  margin-left: 0 !important;
+}
+.Explore > h6:hover {
+  cursor: pointer;
+  color: black;
+}
+.Logo {
+    margin-left: 30px !important;
+    flex: 1 !important;
+    display: flex;
+    align-items: center !important;
+    cursor: pointer;
+  }
+h2 {
+  color: #d4b56b;
+  margin-top: 5px;
+  font-size: 20px !important;
+}
+.Logo>img{
+  height:90px !important;
+  width:230px !important;
+  margin-top:40px;
+  margin-left:0px;
+
+}
+img {
+  height: 70px !important;
+  width: 80px !important;
+  /* cursor: pointer; */
+  margin-bottom: 5px !important;
+}
+.switch {
+  color: white;
+  margin-left: 15px;
+}
+/* .switch:hover {
+  opacity: 0.7;
+} */
+h6:hover {
+  color: #d4b56b;
+  cursor: pointer;
+}
+.NavBtn {
+  margin-right: 25px;
+  margin-left: 0px;
+}
+.Avatar:hover {
+  opacity: 0.8;
+}
+.NavbarSignUp > h6 {
+  margin-left: 25px;
+  
+}
+.NavbarSignUp > a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+/* .alfmbrouk{
+    text-decoration: none;
+    color:wheat
+  } */

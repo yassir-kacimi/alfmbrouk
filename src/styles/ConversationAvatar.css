@@ -1,0 +1,23 @@
+.ConversationAvatar {
+  display: flex;
+  align-items: center;
+  /* margin: 18px !important; */
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+  padding-left: 10px;
+  margin-top: 0px;
+}
+.ConversationAvatar:hover {
+  background-color: #ececec;
+}
+
+.imgAvatar {
+  height: 50px !important;
+  width: 50px !important;
+
+  border-radius: 100% !important;
+  margin: 5px !important;
+}
+h5 {
+  font-size: 14px;
+}

@@ -1,0 +1,62 @@
+.Offer{
+    /* flex:1; */
+    height: 85vh;;
+    color:rgb(180, 179, 179);
+    display: flex;
+}
+.element {
+    display: flex;
+    margin:50px;
+    margin-left: 250px;
+}
+/* .input{
+    margin-left: 50px;
+} */
+.btn-danger{
+    margin-left: 605px;
+    
+}
+.inputI{
+    margin-left:90px ;
+}
+.inputD{
+    margin-left:49px ;
+    
+}
+.inputP{
+    margin-left:95px ;
+    
+}
+.label{
+    margin-top: 30px;
+    margin-left: 545px;
+}
+.services{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.villes{
+    margin-left:60px;
+}
+.welcomeOffer{
+    margin-top: 170px;
+    width: 28%;
+    height: 26vh;
+    background-color: #F582A7;
+    color: black;
+    border-radius: 3%;
+    margin-left: 5px;
+  }
+  .welcomeOffer>p{
+    padding:20px;
+    
+    font-size: larger;
+    
+  }
+
+.offerForm{
+    width: 70%;
+}
+.Alf{
+    color:white;
+  }

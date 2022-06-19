@@ -1,0 +1,13 @@
+.AgentAvatar {
+  display: flex;
+  align-items: center;
+}
+.AgentAvatarImg {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 100%;
+  margin: 10px;
+}
+.AgentAvatar > h6 {
+  font-size: 15px;
+}

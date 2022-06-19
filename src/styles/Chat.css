@@ -1,0 +1,68 @@
+.Chat {
+  
+  display: flex;
+  flex-direction: column; 
+  flex: 0.75;
+  background-color: white;
+  height: 80vh;
+
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  
+}
+
+
+
+
+.chatTop > h4 {
+  padding: 20px 35px;
+  border-bottom: 1px solid lightgray;
+  color: gold;
+}
+.chatTop {
+  height: 69.5px;
+  /* border-bottom: 1px solid lightgray; */
+}
+.chatBottom {
+  overflow-y: scroll;
+}
+
+.chatInput {
+  display: flex;
+  color: lightgray;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+
+  position: sticky;
+  bottom: 5px;
+  background-color: lightgray;
+}
+
+.chatInput > form > input {
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline-width: 0;
+  color: black;
+  font-size: large;
+  width: 100%;
+}
+.chatInput > form {
+  flex: 1;
+}
+.chatInputButton {
+  display: none;
+}
+.chatInput > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+  font-size: 50px;
+}
+.chatInput > .MuiSvgIcon-root:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

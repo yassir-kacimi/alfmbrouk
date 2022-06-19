@@ -1,0 +1,28 @@
+ .Sidebar {
+   display: flex;
+  flex-direction: column;
+  flex: 0.25; 
+  height: 80vh;
+  background-color: white;
+  border: 1px solid lightgray;
+   
+
+ 
+}
+.SidebarTop > h4 {
+  padding: 20px 35px;
+  border-bottom: 1px solid lightgray;
+  color: black;
+  margin: 0;
+  height: 61px;
+  padding-top: 15px;
+  padding-left: 55px;
+}
+
+.conversations {
+  overflow-y: scroll;
+}  
+
+
+
+ 

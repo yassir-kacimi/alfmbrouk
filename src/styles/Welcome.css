@@ -1,0 +1,112 @@
+
+/* .carousel {
+  width: 75% !important;
+  height: 300px;
+} */
+.Welcome {
+ 
+
+  /* flex: 1; */
+  display: flex;
+  height:80vh;
+  align-items: center !important;
+  text-align:center;
+  justify-content:center;
+  /* justify-content: space-between; */
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkucexzrwOBN3APFDj99hzE5Qg4PAqGXzDzA&usqp=CAU");
+  opacity:0.8; */
+  
+  
+}
+.Welcome::before {    
+  content: "";
+  background-image: url("../components/backgroundImage.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.carousel.slide {
+  width: 750px !important;
+  margin-left: 50px;
+  height: 215px;
+}
+.carousel-inner {
+  height: 215px;
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  
+  
+}
+  /* .Welcome {
+  
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkucexzrwOBN3APFDj99hzE5Qg4PAqGXzDzA&usqp=CAU");
+  opacity: 0.5; 
+   top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; 
+   position: absolute;
+  z-index: -1;    
+ }  */
+
+/* .img{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkucexzrwOBN3APFDj99hzE5Qg4PAqGXzDzA&usqp=CAU");
+  object-fit: cover;
+} */
+
+/* Welcome message */
+
+.welcomeMessage {
+  /* background-color: #F582A7; */
+  /* position: ab;
+  z-index: 100; */
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+  /* border-radius: 3%; */
+  
+  height: 215px;
+  align-items: center !important;
+  text-align:center;
+  justify-content:center;
+  line-height:3.5em;
+  /* margin-right: 72px; */
+  margin-bottom:0px;
+}
+.welcomeMessage>h2 , h1{
+  color:white;
+}
+.welcomeMessage>  .btn {
+  margin-top: 20px;
+  background-color: #d4b56b !important;
+  color:white !important;
+}
+
+.Alf{
+  color:white;
+}
+.alfmbrk{
+  font-family: 'Righteous', cursive;
+  color:black;
+}
+
+
+.lg{
+  display:flex;
+  
+}
+.lgWelcome{
+  width:230px !important;
+  height: 25px !important;
+  margin-left:20px;
+  margin-top: 15px;
+}

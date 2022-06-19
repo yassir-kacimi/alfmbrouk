@@ -1,0 +1,88 @@
+/* .Cards > h2 {
+} */
+
+.Cards {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-top: 150px;
+
+  /* overflow-x: scroll; */
+}
+
+
+.offercards {
+  
+  width: 100%;
+  /* display: flex;
+  justify-content: space-around;
+  overflow-y: hidden;
+  overflow-x: scroll; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  
+  
+  
+  
+  /* width: 100%;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 40px;
+  padding-top: 50px;
+  padding-right: 100px; */
+  
+}
+.browze {
+  /* align-items: center;
+  display: flex; */
+  flex: 1;
+  margin-bottom: 20px;
+  margin-left: 28px;
+  
+}
+.browze>h2{
+  color: black;
+}
+.browszeRow {
+  display: flex;
+  align-items: center;
+}
+.next {
+  display: flex;
+  margin-right: 48px;
+  color: rgb(90, 98, 216);
+}
+/* .seeAll {
+  margin-right: 50px;
+  color: rgb(90, 98, 216);
+} */
+.next:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.form{
+  margin-right: 50px;
+  padding-bottom: 45px;
+  /* display: flex; */
+
+}
+.label1{
+  /* margin-top: 0px;
+  margin-left: 0px; */
+  color:rgb(180, 179, 179);
+}
+.label2{
+  /* margin-top: 0px; */
+  margin-left:20px;
+  color:rgb(180, 179, 179);
+}
+.btn2 {
+  margin-left: 40px !important;
+}
+.btn-outline-warning{
+  background-color: #d4b56b !important;
+  color:white !important;
+}

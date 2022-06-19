@@ -1,0 +1,12 @@
+.userMessage {
+  display: flex;
+  padding-left: 10px;
+}
+.userMessage > p {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #423f3e;
+}
+.userMessage:hover {
+  background-color: #f8f5f1;
+}
